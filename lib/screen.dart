@@ -31,9 +31,9 @@ class _ScreenState extends State<Screen> {
     setState(() {
         switch(num){
         case 'x' :{
-            if(numbers[numbers.length-1]!=''){
-                cout='';
-            }
+            //if(numbers[numbers.length-1]!=''){
+            //    cout='';
+            //}
             numbers=numbers.substring(0,numbers.length-1);
             if(numbers.length==0){
                 numbers='0';
